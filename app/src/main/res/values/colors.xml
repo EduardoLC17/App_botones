@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="turquesa">#FF1ABC9C</color>
+    <color name="turquesa_oscuro">#FF117A65</color>
+    <color name="amarillo">#FFFFD600</color>
+    <color name="fondo_main">#FF263238</color>
+    <color name="fondo_call">#FF1B2631</color>
+</resources>

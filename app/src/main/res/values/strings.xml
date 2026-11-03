@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">App_botones</string>
+
+    <string name="name_preferen_shared_fich">edu_shared_fich</string>
+    <string name="name_shared_phone">phone_number</string>
+    <string name="string_phone">phone</string>
+
+    <string name="txt_configuracion">Configuracion del teléfono</string>
+    <string name="txt_phone">Número de teléfono</string>
+    <string name="txt_boton_aceptar">Guardar</string>
+    <string name="txt_version_app">Eduardo Lopez Cozar 2DAM</string>
+
+    <string name="msg_empty_phone">Tienes que poner un teléfono</string>
+    <string name="msg_not_valid_phone">El teléfono no es válido</string>
+    <string name="msg_new_phone">Introduce un nuevo teléfono</string>
+
+    <string name="txt_nombre">Eduardo López</string>
+    <string name="txt_llamar">Llamar</string>
+    <string name="txt_web">Web</string>
+    <string name="txt_alarma">Alarma</string>
+    <string name="txt_ajustes">Ajustes</string>
+    <string name="txt_hint_url">Escribe una web</string>
+    <string name="txt_llamando_a">Llamar a</string>
+</resources>

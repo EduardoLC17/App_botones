@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_main"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_conf"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/boton_principal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_settings" />
+
+    <TextView
+        android:id="@+id/txt_ajustes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_ajustes"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/iv_conf"
+        app:layout_constraintStart_toStartOf="@+id/iv_conf"
+        app:layout_constraintTop_toBottomOf="@+id/iv_conf" />
+
+    <ImageView
+        android:id="@+id/iv_foto"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="60dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/harry_potter_pelicula1" />
+
+    <TextView
+        android:id="@+id/txt_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_nombre"
+        android:textColor="@color/amarillo"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_foto" />
+
+    <TextView
+        android:id="@+id/txt_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nombre" />
+
+    <ImageView
+        android:id="@+id/iv_llamar"
+        android:layout_width="90dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/boton_principal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_phone"
+        app:srcCompat="@drawable/ic_call" />
+
+    <TextView
+        android:id="@+id/txt_llamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_llamar"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/iv_llamar"
+        app:layout_constraintStart_toStartOf="@+id/iv_llamar"
+        app:layout_constraintTop_toBottomOf="@+id/iv_llamar" />
+
+    <ImageView
+        android:id="@+id/iv_web"
+        android:layout_width="90dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/boton_principal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_phone"
+        app:srcCompat="@drawable/ic_web" />
+
+    <TextView
+        android:id="@+id/txt_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/iv_web"
+        app:layout_constraintStart_toStartOf="@+id/iv_web"
+        app:layout_constraintTop_toBottomOf="@+id/iv_web" />
+
+    <ImageView
+        android:id="@+id/iv_alarma"
+        android:layout_width="90dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/boton_principal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_llamar"
+        app:srcCompat="@drawable/ic_alarm" />
+
+    <TextView
+        android:id="@+id/txt_alarma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_alarma"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/iv_alarma"
+        app:layout_constraintStart_toStartOf="@+id/iv_alarma"
+        app:layout_constraintTop_toBottomOf="@+id/iv_alarma" />
+
+    <ImageView
+        android:id="@+id/iv_correo"
+        android:layout_width="90dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/boton_principal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_web"
+        app:srcCompat="@drawable/ic_mail" />
+
+    <TextView
+        android:id="@+id/txt_correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/iv_correo"
+        app:layout_constraintStart_toStartOf="@+id/iv_correo"
+        app:layout_constraintTop_toBottomOf="@+id/iv_correo" />
+
+    <EditText
+        android:id="@+id/edit_url"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/txt_hint_url"
+        android:inputType="textUri"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/turquesa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_alarma" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
